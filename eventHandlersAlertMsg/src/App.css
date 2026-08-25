@@ -1,0 +1,47 @@
+/* Center everything */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for buttons */
+.container {
+  text-align: center;
+  padding: 50px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+.custom-btn {
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 35px;
+  margin: 50px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 500px;
+  
+}
+
+/* Hover effect */
+.custom-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Click effect */
+.custom-btn:active {
+  transform: translateY(0) scale(0.97);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
